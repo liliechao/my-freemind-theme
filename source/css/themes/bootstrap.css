@@ -1096,7 +1096,7 @@ a {
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted;
@@ -4339,7 +4339,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    /*float: left;*/
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {

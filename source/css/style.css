@@ -498,9 +498,23 @@ table {
   vertical-align: middle;
 }
 
+table thead {
+    border-bottom: 1px solid #777;
+    background-color: #aaa;
+    color: #fff;
+}
+
+table tbody tr:nth-of-type(2n) {
+    background-color: #e5eaed;
+}
+
+table tbody tr:nth-of-type(2n+1) {
+    background-color: #f8f8fd;
+}
+
 th {
   padding: 12px 10px 12px 10px;
-  border-bottom: 1px dashed #4088b8;
+  /*border-bottom: 1px dashed #4088b8;*/
 }
 
 td {
